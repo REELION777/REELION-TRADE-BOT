@@ -28,3 +28,6 @@ async def sell_btc(msg: types.Message):
 
 if name == '__main__':
     executor.start_polling(dp, skip_updates=True)
+if name == '__main__':
+    from aiogram import executor
+    executor.start_polling(dp, skip_updates=True)
